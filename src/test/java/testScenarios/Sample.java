@@ -1,11 +1,10 @@
 package testScenarios;
 
-public class Test {
+public class Sample {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("Welcome to Git and GitHub...");
-		System.out.println("Updated...");
+		System.out.println("New Branch Creation...");
 	}
 
 }
