@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="12" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-30T11:24:53 EDT" name="Suite" finished-at="2025-07-30T11:25:54 EDT" duration-ms="61450">
+    <groups>
+    </groups>
+    <test started-at="2025-07-30T11:24:53 EDT" name="Test" finished-at="2025-07-30T11:25:54 EDT" duration-ms="61450">
+      <class name="testScenarios.MouseHover">
+        <test-method signature="dataPicker()[pri:0, instance:testScenarios.MouseHover@7b98f307]" started-at="2025-07-30T11:25:38 EDT" name="dataPicker" finished-at="2025-07-30T11:25:42 EDT" duration-ms="3294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataPicker -->
+        <test-method signature="dragAndDrop()[pri:0, instance:testScenarios.MouseHover@7b98f307]" started-at="2025-07-30T11:25:42 EDT" name="dragAndDrop" finished-at="2025-07-30T11:25:48 EDT" duration-ms="6394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragAndDrop -->
+      </class> <!-- testScenarios.MouseHover -->
+      <class name="testScenarios.HandlingDynData">
+        <test-method signature="dynData()[pri:0, instance:testScenarios.HandlingDynData@3270d194]" started-at="2025-07-30T11:24:53 EDT" name="dynData" finished-at="2025-07-30T11:25:03 EDT" duration-ms="9741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dynData -->
+      </class> <!-- testScenarios.HandlingDynData -->
+      <class name="testScenarios.ThruTextFile">
+        <test-method signature="writeAndreadData()[pri:0, instance:testScenarios.ThruTextFile@34123d65]" started-at="2025-07-30T11:25:51 EDT" name="writeAndreadData" finished-at="2025-07-30T11:25:51 EDT" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeAndreadData -->
+      </class> <!-- testScenarios.ThruTextFile -->
+      <class name="testScenarios.Yahoo">
+        <test-method signature="openYahoo()[pri:1, instance:testScenarios.Yahoo@71d44a3]" started-at="2025-07-30T11:25:03 EDT" name="openYahoo" description="Launch Yahoo" finished-at="2025-07-30T11:25:35 EDT" duration-ms="32065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openYahoo -->
+        <test-method signature="loginYahoo()[pri:2, instance:testScenarios.Yahoo@71d44a3]" started-at="2025-07-30T11:25:35 EDT" name="loginYahoo" description="Login Yahoo-Soft Assert" finished-at="2025-07-30T11:25:38 EDT" duration-ms="3128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginYahoo -->
+        <test-method signature="closeYahoo()[pri:3, instance:testScenarios.Yahoo@71d44a3]" started-at="2025-07-30T11:25:38 EDT" name="closeYahoo" description="Close Yahoo" finished-at="2025-07-30T11:25:38 EDT" duration-ms="402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeYahoo -->
+      </class> <!-- testScenarios.Yahoo -->
+      <class name="testScenarios.SwitchingWin">
+        <test-method signature="switchWin()[pri:0, instance:testScenarios.SwitchingWin@4802796d]" started-at="2025-07-30T11:25:48 EDT" name="switchWin" finished-at="2025-07-30T11:25:51 EDT" duration-ms="3298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchWin -->
+      </class> <!-- testScenarios.SwitchingWin -->
+      <class name="testScenarios.CompareWebTableDAta">
+        <test-method signature="readDataFrmTxt()[pri:1, instance:testScenarios.CompareWebTableDAta@59474f18]" started-at="2025-07-30T11:25:51 EDT" name="readDataFrmTxt" finished-at="2025-07-30T11:25:51 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readDataFrmTxt -->
+        <test-method signature="readDataFrmWT()[pri:2, instance:testScenarios.CompareWebTableDAta@59474f18]" started-at="2025-07-30T11:25:51 EDT" name="readDataFrmWT" finished-at="2025-07-30T11:25:54 EDT" duration-ms="3006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readDataFrmWT -->
+        <test-method signature="compare()[pri:3, instance:testScenarios.CompareWebTableDAta@59474f18]" started-at="2025-07-30T11:25:54 EDT" name="compare" finished-at="2025-07-30T11:25:54 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compare -->
+      </class> <!-- testScenarios.CompareWebTableDAta -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
